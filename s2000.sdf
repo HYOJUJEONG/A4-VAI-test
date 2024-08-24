@@ -1,20 +1,20 @@
-<!-- DO NOT EDIT: Generated from r2000.sdf.jinja -->
+<!-- DO NOT EDIT: Generated from s2000.sdf.jinja -->
 <?xml version='1.0'?>
-<sdf version='1.7'>
+<sdf version='1.6'>
   <model name='s2000'>
     <link name='link_1'>
       <inertial>
-        <mass>1.0</mass>
+        <mass>4.5</mass>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>0.1165</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>0.1165</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>0.2209</izz>
         </inertia>
       </inertial>
-      <pose>0 0 0 0 0 0</pose> 
+      <pose>0 0 0 0 0 0</pose>
       <visual name='link_1_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
@@ -125,14 +125,14 @@
     </joint>
     <link name='rotor_0'>
       <inertial>
-        <mass>1</mass>
+        <mass>0.3</mass>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>9.75e-07</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>0.000273104</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>0.000274004</izz>
         </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
@@ -142,7 +142,7 @@
       <kinematic>0</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual_0'>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>model://s2000/meshes/CW.stl</uri>
@@ -172,8 +172,6 @@
         <surface>
           <friction>
             <ode>
-              <mu>1</mu>
-              <mu2>1</mu2>
               <fdir1>0 0 0</fdir1>
               <slip1>0</slip1>
               <slip2>0</slip2>
@@ -234,14 +232,14 @@
     </joint>
     <link name='rotor_1'>
       <inertial>
-        <mass>1</mass>
+        <mass>0.3</mass>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>9.75e-07</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>0.000273104</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>0.000274004</izz>
         </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
@@ -251,7 +249,7 @@
       <kinematic>0</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual_1'>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>model://s2000/meshes/CW.stl</uri>
@@ -281,8 +279,6 @@
         <surface>
           <friction>
             <ode>
-              <mu>1</mu>
-              <mu2>1</mu2>
               <fdir1>0 0 0</fdir1>
               <slip1>0</slip1>
               <slip2>0</slip2>
@@ -343,14 +339,14 @@
     </joint>
     <link name='rotor_2'>
       <inertial>
-        <mass>1</mass>
+        <mass>0.3</mass>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>9.75e-07</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>0.000273104</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>0.000274004</izz>
         </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
@@ -360,7 +356,7 @@
       <kinematic>0</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual_2'>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>model://s2000/meshes/CCW.stl</uri>
@@ -390,8 +386,6 @@
         <surface>
           <friction>
             <ode>
-              <mu>1</mu>
-              <mu2>1</mu2>
               <fdir1>0 0 0</fdir1>
               <slip1>0</slip1>
               <slip2>0</slip2>
@@ -452,14 +446,14 @@
     </joint>
     <link name='rotor_3'>
       <inertial>
-        <mass>1</mass>
+        <mass>0.3</mass>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>9.75e-07</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>0.000273104</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>0.000274004</izz>
         </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
@@ -469,7 +463,7 @@
       <kinematic>0</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual_3'>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>model://s2000/meshes/CCW.stl</uri>
@@ -499,8 +493,6 @@
         <surface>
           <friction>
             <ode>
-              <mu>1</mu>
-              <mu2>1</mu2>
               <fdir1>0 0 0</fdir1>
               <slip1>0</slip1>
               <slip2>0</slip2>
@@ -561,14 +553,14 @@
     </joint>
     <link name='rotor_4'>
       <inertial>
-        <mass>1</mass>
+        <mass>0.3</mass>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>9.75e-07</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>0.000273104</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>0.000274004</izz>
         </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
@@ -578,7 +570,7 @@
       <kinematic>0</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual_4'>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>model://s2000/meshes/CCW.stl</uri>
@@ -608,8 +600,6 @@
         <surface>
           <friction>
             <ode>
-              <mu>1</mu>
-              <mu2>1</mu2>
               <fdir1>0 0 0</fdir1>
               <slip1>0</slip1>
               <slip2>0</slip2>
@@ -670,14 +660,14 @@
     </joint>
     <link name='rotor_5'>
       <inertial>
-        <mass>1</mass>
+        <mass>0.3</mass>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>9.75e-07</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>0.000273104</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>0.000274004</izz>
         </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
@@ -687,7 +677,7 @@
       <kinematic>0</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual_5'>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>model://s2000/meshes/CCW.stl</uri>
@@ -717,8 +707,6 @@
         <surface>
           <friction>
             <ode>
-              <mu>1</mu>
-              <mu2>1</mu2>
               <fdir1>0 0 0</fdir1>
               <slip1>0</slip1>
               <slip2>0</slip2>
@@ -779,14 +767,14 @@
     </joint>
     <link name='rotor_6'>
       <inertial>
-        <mass>1</mass>
+        <mass>0.3</mass>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>9.75e-07</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>0.000273104</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>0.000274004</izz>
         </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
@@ -796,7 +784,7 @@
       <kinematic>0</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual_6'>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>model://s2000/meshes/CW.stl</uri>
@@ -826,8 +814,6 @@
         <surface>
           <friction>
             <ode>
-              <mu>1</mu>
-              <mu2>1</mu2>
               <fdir1>0 0 0</fdir1>
               <slip1>0</slip1>
               <slip2>0</slip2>
@@ -888,14 +874,14 @@
     </joint>
     <link name='rotor_7'>
       <inertial>
-        <mass>1</mass>
+        <mass>0.3</mass>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>9.75e-07</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>0.000273104</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>0.000274004</izz>
         </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
@@ -905,7 +891,7 @@
       <kinematic>0</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual_7'>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>model://s2000/meshes/CW.stl</uri>
@@ -935,8 +921,6 @@
         <surface>
           <friction>
             <ode>
-              <mu>1</mu>
-              <mu2>1</mu2>
               <fdir1>0 0 0</fdir1>
               <slip1>0</slip1>
               <slip2>0</slip2>
@@ -1008,14 +992,14 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
-      <motorConstant>0.001</motorConstant>
+      <motorConstant>0.0001</motorConstant>
       <momentConstant>0.06</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>0</motorNumber>
-      <rotorDragCoefficient>0</rotorDragCoefficient>
+      <rotorDragCoefficient>0.000175</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/0</motorSpeedPubTopic>
-      <rotorVelocitySlowdownSim>0.0009427</rotorVelocitySlowdownSim>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
     </plugin>
     <plugin name='motor_1_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
@@ -1025,14 +1009,14 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
-      <motorConstant>0.001</motorConstant>
+      <motorConstant>0.0001</motorConstant>
       <momentConstant>0.06</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>1</motorNumber>
-      <rotorDragCoefficient>0</rotorDragCoefficient>
+      <rotorDragCoefficient>0.000175</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/1</motorSpeedPubTopic>
-      <rotorVelocitySlowdownSim>0.0009427</rotorVelocitySlowdownSim>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
     </plugin>
     <plugin name='motor_2_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
@@ -1042,14 +1026,14 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
-      <motorConstant>0.001</motorConstant>
+      <motorConstant>0.0001</motorConstant>
       <momentConstant>0.06</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>2</motorNumber>
-      <rotorDragCoefficient>0</rotorDragCoefficient>
+      <rotorDragCoefficient>0.000175</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/2</motorSpeedPubTopic>
-      <rotorVelocitySlowdownSim>0.0009427</rotorVelocitySlowdownSim>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
     </plugin>
     <plugin name='motor_3_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
@@ -1059,14 +1043,14 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
-      <motorConstant>0.001</motorConstant>
+      <motorConstant>0.0001</motorConstant>
       <momentConstant>0.06</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>3</motorNumber>
-      <rotorDragCoefficient>0</rotorDragCoefficient>
+      <rotorDragCoefficient>0.000175</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/3</motorSpeedPubTopic>
-      <rotorVelocitySlowdownSim>0.0009427</rotorVelocitySlowdownSim>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
     </plugin>
     <plugin name='motor_4_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
@@ -1076,14 +1060,14 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
-      <motorConstant>0.001</motorConstant>
+      <motorConstant>0.0001</motorConstant>
       <momentConstant>0.06</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>4</motorNumber>
-      <rotorDragCoefficient>0</rotorDragCoefficient>
+      <rotorDragCoefficient>0.000175</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/4</motorSpeedPubTopic>
-      <rotorVelocitySlowdownSim>0.0009427</rotorVelocitySlowdownSim>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
     </plugin>
     <plugin name='motor_5_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
@@ -1093,14 +1077,14 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
-      <motorConstant>0.001</motorConstant>
+      <motorConstant>0.0001</motorConstant>
       <momentConstant>0.06</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>5</motorNumber>
-      <rotorDragCoefficient>0</rotorDragCoefficient>
+      <rotorDragCoefficient>0.000175</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/5</motorSpeedPubTopic>
-      <rotorVelocitySlowdownSim>0.0009427</rotorVelocitySlowdownSim>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
     </plugin>
     <plugin name='motor_6_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
@@ -1110,14 +1094,14 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
-      <motorConstant>0.001</motorConstant>
+      <motorConstant>0.0001</motorConstant>
       <momentConstant>0.06</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>6</motorNumber>
-      <rotorDragCoefficient>0</rotorDragCoefficient>
+      <rotorDragCoefficient>0.000175</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/6</motorSpeedPubTopic>
-      <rotorVelocitySlowdownSim>0.0009427</rotorVelocitySlowdownSim>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
     </plugin>
     <plugin name='motor_7_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
@@ -1127,14 +1111,14 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
-      <motorConstant>0.001</motorConstant>
+      <motorConstant>0.0001</motorConstant>
       <momentConstant>0.06</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>7</motorNumber>
-      <rotorDragCoefficient>0</rotorDragCoefficient>
+      <rotorDragCoefficient>0.000175</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/7</motorSpeedPubTopic>
-      <rotorVelocitySlowdownSim>0.0009427</rotorVelocitySlowdownSim>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
     </plugin>
     <include>
       <uri>model://gps</uri>
@@ -1258,7 +1242,7 @@
           <joint_name>rotor_7_joint</joint_name>
         </channel>
       </control_channels>
-    </plugin> 
+    </plugin>
     <static>0</static>
     <plugin name='rotors_gazebo_imu_plugin' filename='libgazebo_imu_plugin.so'>
       <robotNamespace/>
@@ -1275,4 +1259,3 @@
     </plugin>
   </model>
 </sdf>
-  
