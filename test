@@ -6,12 +6,12 @@
        <inertial>
         <mass>4.0</mass>
         <inertia>
-          <ixx>0.07</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0.07</iyy>
-          <iyz>0</iyz>
-          <izz>0.09</izz>
+          <ixx>0.4092036</ixx>
+          <ixy>0.00005031</ixy>
+          <ixz>-0.00005961</ixz>
+          <iyy>0.46271003</iyy>
+          <iyz>0.00002734</iyz>
+          <izz>0.81286453</izz>
         </inertia>
       </inertial>
       <pose>0 0 0 0 0 0</pose>
@@ -123,15 +123,6 @@
     </joint>
     <link name='rotor_0'>
       <inertial>
-        <mass>0.15</mass>
-        <inertia>
-          <ixx>9.75e-07</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0.000273104</iyy>
-          <iyz>0</iyz>
-          <izz>0.000274004</izz>
-        </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
       <pose>0.52 -0.195 0.025 0 0 0</pose>
@@ -228,15 +219,6 @@
     </joint>
     <link name='rotor_1'>
       <inertial>
-        <mass>0.15</mass>
-        <inertia>
-          <ixx>9.75e-07</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0.000273104</iyy>
-          <iyz>0</iyz>
-          <izz>0.000274004</izz>
-        </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
       <pose>-0.52 0.195 0.025 0 0 0</pose>
@@ -333,15 +315,6 @@
     </joint>
     <link name='rotor_2'>
       <inertial>
-        <mass>0.15</mass>
-        <inertia>
-          <ixx>9.75e-07</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0.000273104</iyy>
-          <iyz>0</iyz>
-          <izz>0.000274004</izz>
-        </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
       <pose>0.251 -0.495 0.025 0 0 0</pose>
@@ -438,15 +411,6 @@
     </joint>
     <link name='rotor_3'>
       <inertial>
-        <mass>0.15</mass>
-        <inertia>
-          <ixx>9.75e-07</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0.000273104</iyy>
-          <iyz>0</iyz>
-          <izz>0.000274004</izz>
-        </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
       <pose>-0.52 -0.195 0.025 0 0 0</pose>
@@ -543,15 +507,6 @@
     </joint>
     <link name='rotor_4'>
       <inertial>
-        <mass>0.15</mass>
-        <inertia>
-          <ixx>9.75e-07</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0.000273104</iyy>
-          <iyz>0</iyz>
-          <izz>0.000274004</izz>
-        </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
       <pose>0.52 0.195 0.025 0 0 0</pose>
@@ -648,15 +603,6 @@
     </joint>
     <link name='rotor_5'>
       <inertial>
-        <mass>0.15</mass>
-        <inertia>
-          <ixx>9.75e-07</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0.000273104</iyy>
-          <iyz>0</iyz>
-          <izz>0.000274004</izz>
-        </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
       <pose>-0.251  0.495 0.025 0 0 0</pose>
@@ -753,15 +699,6 @@
     </joint>
     <link name='rotor_6'>
       <inertial>
-        <mass>0.15</mass>
-        <inertia>
-          <ixx>9.75e-07</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0.000273104</iyy>
-          <iyz>0</iyz>
-          <izz>0.000274004</izz>
-        </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
       <pose>0.251 0.495 0.025 0 0 0</pose>
@@ -858,15 +795,6 @@
     </joint>
     <link name='rotor_7'>
       <inertial>
-        <mass>0.15</mass>
-        <inertia>
-          <ixx>9.75e-07</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>0.000273104</iyy>
-          <iyz>0</iyz>
-          <izz>0.000274004</izz>
-        </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
       <pose>-0.251 -0.495 0.025 0 0 0</pose>
